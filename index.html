@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event ticketing community</title>
+
+    <!-- Adding DM Sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- Adding montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- adding daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Adding tailwind config and extends fonts and colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mont: ["Montserrat", "sans-serif"],
+                        sans: ["DM Sans", "sans-serif"],
+                    },
+                    colors: {
+                        btn: "#F5167E",
+                    },
+                    backgroundImage: {
+                        bannerImg: "url('./assets/hero-banner.png')"
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-bannerImg bg-repeat bg-cover bg-bottom w-full h-screen">
+
+    
+
+</body>
+
+</html>
