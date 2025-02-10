@@ -11,7 +11,7 @@ module.exports = {
                 btn: "#F5167E",
             },
             backgroundImage: {
-                bannerImg: "url('./assets/hero-banner.png')"
+                bannerGradient: "linear-gradient(to right, rgba(237,70,144,0.9), rgba(85,34,204,0.9)), url('./assets/hero-banner.png')"
             },
         },
     },
